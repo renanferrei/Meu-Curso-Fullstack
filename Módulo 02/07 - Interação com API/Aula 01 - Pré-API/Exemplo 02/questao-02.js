@@ -10,7 +10,6 @@ alert(senai)
 
 
 
-
 /*function somar(){
     ///return "oi"
     return 3 + 3
@@ -25,15 +24,14 @@ alert(senai)
 }
 */
 
-/*function somar(x, y){
-    return x + y
+
+
+    function somar(x){
+    return x + 4
 }
+    somar()
 
-    alert(somar("ola", 5))
-*/
-
-
-function calcular(x,y) {
+//function calcular(x,y) {
     
-    }
-alert(calcular())
+  //  }
+//alert(calcular())
