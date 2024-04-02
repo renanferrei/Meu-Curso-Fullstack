@@ -1,6 +1,33 @@
 [
     {
-        "":""
+        "id":1,
+        "marca":"Nike",
+        "img":"https://acdn.mitiendanube.com/stores/001/631/923/products/11111-c7a4ed89125a09234d16520460961520-640-0.jpg",
+        "modelo":"PSG",
+        "valor": 159.99
+    },
+
+    { 
+    "id":2,
+    "marca":"Puma",
+    "img":"https://acdn.mitiendanube.com/stores/001/631/923/products/121-a43ced05ccb65238f616774624869074-640-0.jpg",
+    "modelo":"Borussia Dortmund",
+    "valor": 189.69
+    },
+    {
+        "id":3,
+        "marca":"Adidas",
+        "img":"https://acdn.mitiendanube.com/stores/001/402/723/products/81b902ab1-39f5b3094cbcead3f416546485664319-1024-1024.jpg",
+        "modelo":"Real madri",
+        "valor": 90.99
+    },
+
+    {
+        "id":4,
+        "marca":"Nike",
+        "img":"https://acdn.mitiendanube.com/stores/002/227/375/products/camisa-barcelona-preta-202223-masculina-61-9bd38f5cfc2717213216566356862894-1024-1024.jpeg",
+        "modelo":"Barcelona",
+        "valor": 120.99
     }
 ]
 

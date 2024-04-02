@@ -1,0 +1,40 @@
+.lista-card{
+column-gap: 10px;
+row-gap: 10px;
+display: flex;
+}
+
+.card{
+    display: flex;
+    border: 2px solid red;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+}
+
+header{
+    background-color: brown;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+span{
+    color: white;
+    width: fit-content;
+    text-decoration: underline;
+}
+
+nav{
+    background-color: brown;
+}
+
+h1{
+    color: white;
+}
