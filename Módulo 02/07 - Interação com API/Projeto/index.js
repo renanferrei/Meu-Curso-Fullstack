@@ -7,7 +7,7 @@ async function produtos() {
         NovaDiv.innerHTML += `
         <div class= "card" data-id="${x.id}">
             <h3>${x.marca}</h3>
-            <img src="${x.img}" alt="" width="250px" height="250px">
+            <img src="${x.img[0]}" alt="" width="250px" height="250px">
             <h3>${x.modelo}</h3>
             <h3>R$ ${x.valor}</h3>
         
@@ -21,9 +21,9 @@ async function produtos() {
         card.addEventListener("click", clicou)
     }
 }
-produtos()
 
-    function clicou(params) {
+function clicou() {
         let elementoId = this.getAttribute("data-id")
         window.location.href = "detalhes.html?produto-id=" + elementoId
-    }
+}
+produtos()

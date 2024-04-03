@@ -2,7 +2,11 @@
     {
         "id":1,
         "marca":"Nike",
-        "img":["https://acdn.mitiendanube.com/stores/001/631/923/products/11111-c7a4ed89125a09234d16520460961520-640-0.jpg"],
+        "img":[
+            "https://acdn.mitiendanube.com/stores/001/631/923/products/11111-c7a4ed89125a09234d16520460961520-640-0.jpg",
+            "https://down-br.img.susercontent.com/file/940346f45412278ab8ba971e4637a3c4",
+            "https://down-br.img.susercontent.com/file/69389458ac0294dccd4c30a7090e2fe5"
+            ],
         "modelo":"PSG",
         "valor": 159.99
     },
@@ -10,14 +14,24 @@
     { 
         "id":2,
         "marca":"Puma",
-        "img":"https://acdn.mitiendanube.com/stores/001/631/923/products/121-a43ced05ccb65238f616774624869074-640-0.jpg",
+        "img":[
+            "https://acdn.mitiendanube.com/stores/001/631/923/products/121-a43ced05ccb65238f616774624869074-640-0.jpg",
+            "https://loukosnofutebol.com/public/arqConteudo/arqZPProduto/borussia-dortmund-lanca-nova-camisa-blackout-9.jpg",
+            "https://acdn.mitiendanube.com/stores/001/703/758/products/borussia-dortmund-lanca-nova-camisa-blackout-61-ba2853b27d9f5f7a2e16772550032217-1024-1024.jpg",
+             "https://casadoboleiro.com.br/cdn/shop/products/Camiseta-Borussia-Dortmund-110-Anos-Negra-iii_1024x1024_ed0dd4f9-ee91-43ab-bced-efaebaf253c8_1024x1024@2x.jpg?v=1645024935"
+             ],
         "modelo":"Borussia Dortmund",
         "valor": 189.69
     },
+    
     {
         "id":3,
         "marca":"Adidas",
-        "img":"https://acdn.mitiendanube.com/stores/001/402/723/products/81b902ab1-39f5b3094cbcead3f416546485664319-1024-1024.jpg",
+        "img":[
+            "https://acdn.mitiendanube.com/stores/001/402/723/products/81b902ab1-39f5b3094cbcead3f416546485664319-1024-1024.jpg",
+            "https://talksport.com/wp-content/uploads/sites/5/2023/02/real-madrids-brazilian-forward-vinicius-794380579.jpg?strip=all&quality=100&w=1080&h=1080&crop=1",
+            "https://acdn.mitiendanube.com/stores/976/005/products/sem-titulo-11-5ed07b7cac765f9fdb16635843961449-1024-1024.jpg"
+            ],
         "modelo":"Real madri",
         "valor": 90.99
     },
@@ -25,7 +39,11 @@
     {
         "id":4,
         "marca":"Nike",
-        "img":"https://acdn.mitiendanube.com/stores/002/227/375/products/camisa-barcelona-preta-202223-masculina-61-9bd38f5cfc2717213216566356862894-1024-1024.jpeg",
+        "img":["https://acdn.mitiendanube.com/stores/002/227/375/products/camisa-barcelona-preta-202223-masculina-61-9bd38f5cfc2717213216566356862894-1024-1024.jpeg",
+                "https://th.bing.com/th/id/OIP.ODqYP0QR9NuqMvsrh6RKJwHaJP?pid=ImgDet&w=199&h=247&c=7",
+                "https://a.allegroimg.com/s1024/0c74a1/6da90066498d858b6aecc3c445fb"
+            
+                ],
         "modelo":"Barcelona",
         "valor": 120.99
     }

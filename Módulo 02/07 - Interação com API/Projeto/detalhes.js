@@ -23,6 +23,6 @@ async function buscarDetalhes() {
     divMiniaturas.innerHTML +=`
         <img src="${x}" alt="" width="50px" height="50px">
     `
-}
+    }
 }
 buscarDetalhes()
