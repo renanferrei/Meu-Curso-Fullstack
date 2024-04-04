@@ -9,7 +9,10 @@ async function produtos() {
             <h3>${x.marca}</h3>
             <img src="${x.img[0]}" alt="" width="250px" height="250px">
             <h3>${x.modelo}</h3>
-            <h3>R$ ${x.valor}</h3>
+            <div class="valor">
+            <h3>R$ ${x.valor.toFixed(2).replace(".",",")}</h3>
+            </div>
+           
         
         
         </div>`
@@ -27,3 +30,4 @@ function clicou() {
         window.location.href = "detalhes.html?produto-id=" + elementoId
 }
 produtos()
+
