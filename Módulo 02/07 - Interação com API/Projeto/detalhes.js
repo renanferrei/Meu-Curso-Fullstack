@@ -32,8 +32,19 @@ async function buscarDetalhes() {
     }
 }
 
-    function deslize() {
-        document.getElementById("frame").src = this.src
-    }
 buscarDetalhes()
+
+
+function deslize() {
+    document.getElementById("frame").src = this.src
+}
+
+function novabt() {
+    document.body.innerHTML = `
+    <h1>Compra efetuada com sucesso</h1>
+    <h2>Numero do Pedido</h2>
+    <h2></h2>
+    `
+    
+}
 

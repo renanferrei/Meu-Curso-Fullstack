@@ -1,3 +1,7 @@
+body{
+    background-color: grey;
+}
+
 .lista-card{
 column-gap: 10px;
 row-gap: 10px;
@@ -13,6 +17,8 @@ flex-wrap: wrap;
     margin-top: 1px;
     border-radius: 10px;
     flex-direction: column;
+    background-color: black;
+    color: white;
 }
 
 header{
@@ -101,10 +107,48 @@ h3{
     background-color: blue;
     color: white;
     margin: 10px;
+   
 }
 
 .medida{
     margin: 5px;
 }
 
+.selecao{
+    background-color: blue;
+    border-radius: 10px;
+    margin: 7px;
+    color: white;
+    width: fit-content;
+    align-items: center;
+    
+}
 
+.pagamento{
+    border: 2px solid black;
+    width: fit-content;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.t1{
+    margin: 5px;
+
+}
+
+.novadiv{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.BT{
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
