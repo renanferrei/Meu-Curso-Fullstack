@@ -41,9 +41,13 @@ function deslize() {
 
 function novabt() {
     document.body.innerHTML = `
-    <h1>Compra efetuada com sucesso</h1>
-    <h2>Numero do Pedido</h2>
-    <h2></h2>
+    <div class="comprado">
+    <h1 class="CE">Compra efetuada com sucesso</h1>
+    <h2 class="CE">Numero do Pedido:</h2>
+    <h2 class="CE">${parseInt(Math.random() * 123456)}</h2>
+    
+    </div>
+
     `
     
 }
