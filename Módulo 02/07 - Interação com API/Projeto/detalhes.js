@@ -13,8 +13,8 @@ async function buscarDetalhes() {
     }
 
     document.getElementById("detalhes").innerHTML += `
-    <h3 class="h3">${produtos[indiceProd].modelo}</h3>
-    <h2 class="text">Camisetas de Futebol Europeu</h2>
+    <h3 class="h3">Camisetas de Futebol Europeu</h3>
+    <h2 class="text">${produtos[indiceProd].modelo}</h2>
     <img class="card1" src="${produtos[indiceProd].img[0]}" alt="" id="frame" width="250px" height="250px" >
     <div  class="card-miniaturas" id="miniaturas">
     </div>`
@@ -42,7 +42,7 @@ function deslize() {
 function novabt() {
     document.body.innerHTML = `
     <div class="comprado">
-    <h1 class="CE">Compra efetuada com sucesso</h1>
+    <h1 class="C1">Compra efetuada com sucesso</h1>
     <h2 class="CE">Numero do Pedido:</h2>
     <h2 class="CE">${parseInt(Math.random() * 123456)}</h2>
     

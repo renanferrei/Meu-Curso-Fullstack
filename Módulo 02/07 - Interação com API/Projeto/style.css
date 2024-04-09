@@ -1,5 +1,7 @@
 body{
-    background-color: grey;
+    background-image: url(https://img.freepik.com/free-vector/red-grunge-halftone-detailed-dark-background_1409-1621.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .lista-card{
@@ -22,9 +24,9 @@ flex-wrap: wrap;
 }
 
 .segundadiv{
-    border: 2px solid black;
+    border: 2px solid white;
     width: fit-content;
-    background-color: blue;
+    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,11 +69,12 @@ h1{
    border: 2px solid white;
    border-radius: 10px;
     margin-top: 5px;
+    padding: 2px;
     
 }
 
 .B1{
-    background-color: blue;
+    background-color: gray;
     padding: 5 10px;
     color: white;
     border-radius: 10px;
@@ -88,7 +91,9 @@ h1{
 }
 
 .text{
-    border: 2px solid blue;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
     width: fit-content;
     border-radius: 10px;
     margin: 10px;
@@ -100,7 +105,7 @@ h3{
 }
 
 .detalhes{
-    border: 2px solid black;
+    border: 2px solid white;
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
@@ -108,7 +113,7 @@ h3{
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: red;
     color: white;
 }
 
@@ -116,7 +121,7 @@ h3{
     border: 2px solid white;
     width: fit-content;
     border-radius: 10px;
-    background-color: blue;
+    background-color: red;
     color: white;
     margin: 10px;
    
@@ -128,7 +133,7 @@ h3{
 }
 
 .selecao{
-    background-color: blue;
+    background-color: gray;
     border-radius: 10px;
     margin: 7px;
     color: white;
@@ -142,7 +147,7 @@ h3{
     width: fit-content;
     margin: 10px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: red;
     color: white;
 }
 
@@ -159,7 +164,7 @@ h3{
 
 .BT{
     margin: 10px;
-    background-color: blue;
+    background-color: gray;
     color: white;
     margin-top: 5px;
     border-radius: 10px;
@@ -174,8 +179,12 @@ h3{
     align-items: center;
     margin: 10px;
     border-radius: 10px;
+    background-color: red;
 }
 
 .CE{
     margin: 10px;
+}
+.C1{
+    color: green;
 }
