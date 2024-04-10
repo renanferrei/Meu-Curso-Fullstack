@@ -7,27 +7,40 @@ async function produtos() {
         NovaDiv.innerHTML += `
         <div class= "card" data-id="${x.id}">
             <h3>${x.marca}</h3>
-            <img src="${x.img[0]}" alt="" width="250px" height="250px">
+            <img id="imagens-${x.id}" src="${x.img[0]}" alt="" width="250px" height="250px">
             <h3>${x.modelo}</h3>
             <div class="valor">
             <h3>R$ ${x.valor.toFixed(2).replace(".",",")}</h3>
             </div>
-           
+        </div>`;
+
+        adicionarRemoverEfeitoHover(`imagens-${x.id}`);
+
         
-        
-        </div>`
     }
 
-    let Divscards = document.getElementsByClassName("card")
+    let Divscards = document.getElementsByClassName("card");
 
     for(let card of Divscards){
-        card.addEventListener("click", clicou)
+        card.addEventListener("click", clicou);
     }
 }
 
 function clicou() {
-        let elementoId = this.getAttribute("data-id")
-        window.location.href = "detalhes.html?produto-id=" + elementoId
+    let elementoId = this.getAttribute("data-id");
+    window.location.href = "detalhes.html?produto-id=" + elementoId;
 }
-produtos()
 
+function adicionarRemoverEfeitoHover(idImagem) {
+    var imagem = document.getElementById(idImagem);
+    
+    imagem.addEventListener('mouseenter', function() {
+        imagem.classList.add('hover-effect');
+    });
+
+    imagem.addEventListener('mouseleave', function() {
+        imagem.classList.remove('hover-effect');
+    });
+}
+
+produtos();

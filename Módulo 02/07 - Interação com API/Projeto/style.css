@@ -36,14 +36,14 @@ flex-wrap: wrap;
 
 header{
     background-color: brown;
-    border: 2px solid black;
+    border: 2px solid white;
     display: flex;
     align-items: center;
     padding: 20px;
     color: white;
-    font-weight: bold;
-    font-size: 30px;
     border-radius: 10px;
+   margin: 4px;
+    
 
 }
 
@@ -188,3 +188,13 @@ h3{
 .C1{
     color: green;
 }
+
+footer {
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;}
