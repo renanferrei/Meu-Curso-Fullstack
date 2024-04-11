@@ -13,11 +13,11 @@ async function buscarDetalhes() {
     }
 
     document.getElementById("detalhes").innerHTML += `
-    <h3 class="h3">Camisetas de Futebol Europeu</h3>
-    <h2 class="text">${produtos[indiceProd].modelo}</h2>
-    <img class="card1" src="${produtos[indiceProd].img[0]}" alt="" id="frame" width="250px" height="250px" >
-    <div  class="card-miniaturas" id="miniaturas">
-    </div>`
+        <h3 class="h3">Camisetas de Futebol Europeu</h3>
+        <h2 class="text">${produtos[indiceProd].modelo}</h2>
+        <img class="card1" src="${produtos[indiceProd].img[0]}" alt="" id="frame" width="250px" height="250px" >
+        <div  class="card-miniaturas" id="miniaturas"></div>
+    `
 
     let divMiniaturas = document.getElementById("miniaturas")
     for(let x of produtos[indiceProd].img){
@@ -32,23 +32,38 @@ async function buscarDetalhes() {
     }
 }
 
-buscarDetalhes()
-
-
 function deslize() {
     document.getElementById("frame").src = this.src
 }
 
 function novabt() {
     document.body.innerHTML = `
-    <div class="comprado">
-    <h1 class="C1">Compra efetuada com sucesso</h1>
-    <h2 class="CE">Numero do Pedido:</h2>
-    <h2 class="CE">${parseInt(Math.random() * 123456)}</h2>
-    
-    </div>
-
+        <div class="comprado">
+            <h1 class="C1">Compra efetuada com sucesso</h1>
+            <h2 class="CE">Numero do Pedido:</h2>
+            <h2 class="CE">${parseInt(Math.random() * 123456)}</h2>
+        </div>
     `
     
 }
 
+function mostrarTamanhoSelecionado() {
+    let radios = document.querySelectorAll('input[type="radio"]')
+
+    for (let bolinha of radios) {
+        bolinha.addEventListener('change', alterar)
+    }
+}
+
+function alterar() {
+    alert("oi")
+    let valorSelecionado = document.getElementById('valor-selecionado')
+
+    valorSelecionado.innerHTML += `
+        <span>Tamanho selecionado: ${this.value}</span>
+    `
+}
+
+mostrarTamanhoSelecionado()
+
+buscarDetalhes()

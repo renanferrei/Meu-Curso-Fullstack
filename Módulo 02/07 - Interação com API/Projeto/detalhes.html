@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
-        
     </head>
+
     <body>
         <button class="B1" onclick="window.history.back()">voltar</button>
-           
+
         <div class="novadiv">
             <div class="detalhes" id="detalhes"></div>
-        <div>
-            <div class="segundadiv">
-                
-        
+
+            <div class="segundadiv" id="segundadiv">
                 <div class="pagamento">
                     <h3 class="t1">Metodos de Pagamento:</h3>
-                   <select class="selecao" name="" id="opcoes de pagamento">
-                    <option value="">Cartao de Credito</option>
-                    <option value="">Boleto</option>
-                    <option value="">pix</option>
-                   </select>
+                    <select class="selecao" name="" id="opcoes de pagamento">
+                        <option value="">Cartao de Credito</option>
+                        <option value="">Boleto</option>
+                        <option value="">pix</option>
+                    </select>
+                </div>
 
-                   
-            </div>
-                <div class="tamanhos">
-                 <h3 class="medida">escolha seu tamanho :</h3>
-                 <input type="radio" name="devweb" value="P">P 
-                <input type="radio" name="devweb" value="M">M
-                <input type="radio" name="devweb" value="G">G
-                                </div>
-            
-         <div>
-            <button class="BT" onclick="novabt()">comprar</button>
-        </div>
-            </div>
+                <div class="tamanhos" id="valor-selecionado">
+                    <h3 class="medida">Escolha seu tamanho:</h3>
+                    <div>
+                        <input type="radio" name="renan" value="P">P
+                        <input type="radio" name="renan" value="M">M
+                        <input type="radio" name="renan" value="G">G
+                    </div>
+                </div>
 
+                <button class="BT" onclick="novabt()">comprar</button>
+            </div>
         </div>
-        </div>
-        
+
     </body>
+
     <script src="detalhes.js"></script>
-    </html>
+</html>

@@ -14,7 +14,7 @@ async function produtos() {
             </div>
         </div>`;
 
-        adicionarRemoverEfeitoHover(`imagens-${x.id}`);
+       
 
         
     }
@@ -31,16 +31,5 @@ function clicou() {
     window.location.href = "detalhes.html?produto-id=" + elementoId;
 }
 
-function adicionarRemoverEfeitoHover(idImagem) {
-    var imagem = document.getElementById(idImagem);
-    
-    imagem.addEventListener('mouseenter', function() {
-        imagem.classList.add('hover-effect');
-    });
-
-    imagem.addEventListener('mouseleave', function() {
-        imagem.classList.remove('hover-effect');
-    });
-}
 
 produtos();
