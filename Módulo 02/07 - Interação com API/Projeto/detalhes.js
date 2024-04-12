@@ -56,14 +56,15 @@ function mostrarTamanhoSelecionado() {
 }
 
 function alterar() {
-    alert("oi")
+    
     let valorSelecionado = document.getElementById('valor-selecionado')
 
     valorSelecionado.innerHTML += `
         <span>Tamanho selecionado: ${this.value}</span>
-    `
+        `
 }
 
 mostrarTamanhoSelecionado()
+
 
 buscarDetalhes()

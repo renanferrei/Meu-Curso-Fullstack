@@ -14,7 +14,11 @@ async function produtos() {
             </div>
         </div>`;
 
-       
+        
+
+
+
+
 
         
     }
@@ -31,5 +35,11 @@ function clicou() {
     window.location.href = "detalhes.html?produto-id=" + elementoId;
 }
 
+function showMenu() {
+    document.getElementById("dropdownContent").style.display = "block";
+}
 
+function hideMenu() {
+    document.getElementById("dropdownContent").style.display = "none";
+}
 produtos();
