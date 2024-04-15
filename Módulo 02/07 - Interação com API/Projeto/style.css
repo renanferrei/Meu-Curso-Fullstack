@@ -52,6 +52,19 @@ header{
     align-items: center;
 }
 
+.novoHeader{
+    background-color: brown;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin: 4px;
+    align-items: center;
+}
+
 span{
     color: white;
     width: fit-content;
@@ -230,6 +243,7 @@ footer {
         position: relative;
         display: inline-block;
         align-items: end;
+    
       
         
     }
@@ -256,3 +270,18 @@ footer {
     .dropdown-content a:hover {
         background-color: #ddd
     }
+
+    .img{
+        background-color: transparent;
+        color: white;
+        border-radius: 10px;
+        border: 1px solid brown;
+        
+    }
+
+    .img:hover{
+        transform: scale(1.05);
+    }
+
+    
+   

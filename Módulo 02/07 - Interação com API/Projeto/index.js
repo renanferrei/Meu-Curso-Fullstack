@@ -35,11 +35,24 @@ function clicou() {
     window.location.href = "detalhes.html?produto-id=" + elementoId;
 }
 
-function showMenu() {
-    document.getElementById("dropdownContent").style.display = "block";
+
+var menuVisible = false;
+
+function toggleMenu() {
+    var dropdownContent = document.getElementById("dropdownContent")
+    if (!menuVisible) {
+        dropdownContent.style.display = "block"
+        menuVisible = true
+    } else {
+        dropdownContent.style.display = "none"
+        menuVisible = false
+    }
 }
 
-function hideMenu() {
-    document.getElementById("dropdownContent").style.display = "none";
-}
-produtos();
+document.getElementById("dropdownContent").addEventListener("click", function(event){
+    event.stopPropagation()
+})
+produtos()
+
+
+
