@@ -67,4 +67,9 @@ function alterar() {
 mostrarTamanhoSelecionado()
 
 
+
+
+
+
+
 buscarDetalhes()
