@@ -1,0 +1,23 @@
+[
+    {
+        "novaMarca":"Adidas",
+        "novaImg":"https://img.elo7.com.br/product/zoom/4E48F7D/arte-camisa-flamengo-titular-2024-25-artes.jpg",
+        "novoModelo":"Flamengo",
+        "novovalor":189.99
+    },
+
+    {
+
+        "novaMarca":"Puma",
+        "novaImg":" https://acdn.mitiendanube.com/stores/001/873/250/products/ed3c9fba1-6b63bdcfd95ea703a716763220736968-1024-1024.jpg",
+        "novoModelo":"Palmeiras",
+        "novovalor":179.90       
+    },
+
+    {
+    "novaMarca":"Umbro",
+    "novaImg":"https://kssports23.com.br/wp-content/uploads/2023/05/camisa-i-do-gremio-home-2023-2024-versao-torcedor-todos-os-patrocinios-1-scaled.jpg",
+    "novoModelo":"Gremio",
+    "novovalor":119.90   
+    }
+]

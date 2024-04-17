@@ -42,6 +42,8 @@ function novabt() {
             <h1 class="C1">Compra efetuada com sucesso</h1>
             <h2 class="CE">Numero do Pedido:</h2>
             <h2 class="CE">${parseInt(Math.random() * 123456)}</h2>
+
+            
         </div>
     `
     

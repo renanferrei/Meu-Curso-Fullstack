@@ -30,28 +30,33 @@ async function produtos() {
     }
 }
 
-function clicou() {
-    let elementoId = this.getAttribute("data-id");
-    window.location.href = "detalhes.html?produto-id=" + elementoId;
-}
-
-
-var menuVisible = false;
-
-function toggleMenu() {
-    var dropdownContent = document.getElementById("dropdownContent")
-    if (!menuVisible) {
-        dropdownContent.style.display = "block"
-        menuVisible = true
-    } else {
-        dropdownContent.style.display = "none"
-        menuVisible = false
+    function clicou() {
+        let elementoId = this.getAttribute("data-id");
+        window.location.href = "detalhes.html?produto-id=" + elementoId;
     }
-}
 
-document.getElementById("dropdownContent").addEventListener("click", function(event){
-    event.stopPropagation()
-})
+
+    var menuVisible = false;
+
+    function toggleMenu() {
+        var dropdownContent = document.getElementById("dropdownContent")
+        if (!menuVisible) {
+            dropdownContent.style.display = "block"
+            menuVisible = true
+        } else {
+            dropdownContent.style.display = "none"
+            menuVisible = false
+        }
+    }
+
+    document.getElementById("dropdownContent").addEventListener("click", function(event){
+        event.stopPropagation()
+    })
+
+
+
+    
+
 produtos()
 
 
