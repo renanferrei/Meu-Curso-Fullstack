@@ -14,13 +14,6 @@ async function produtos() {
             </div>
         </div>`;
 
-        
-
-
-
-
-
-        
     }
 
     let Divscards = document.getElementsByClassName("card");

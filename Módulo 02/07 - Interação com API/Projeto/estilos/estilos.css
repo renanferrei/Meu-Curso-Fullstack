@@ -1,3 +1,9 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/red-grunge-halftone-detailed-dark-background_1409-1621.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .novacard{
     display: flex;
     border: 2px solid red;
@@ -17,4 +23,16 @@
     row-gap: 10px;
     display: flex;
     flex-wrap: wrap;
+}
+
+header{
+    border: 2px solid black;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.novoh2{
+    margin: 10px;
 }

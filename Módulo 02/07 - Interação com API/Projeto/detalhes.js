@@ -26,6 +26,9 @@ async function buscarDetalhes() {
     `
     }
 
+
+    
+
     let minizinhas = document.getElementsByClassName("mini")
     for(let x of minizinhas){
         x.addEventListener("mouseover", deslize)
